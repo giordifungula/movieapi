@@ -1,5 +1,5 @@
 body {
-    background: #ffafbd;
+    background: #684f4f;
 }
 .container {
     
@@ -17,6 +17,8 @@ body {
   .card {
     margin: 1rem;
     border: 1px solid gray;
+    padding: 20px;
+    transition: 1s;
   }
   .card:nth-child(odd) h1 {
     background-image: linear-gradient(120deg, #22e265 0%, #137db3 100%);
@@ -32,6 +34,10 @@ body {
   
   .card:nth-child(5n) h1 {
     background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
   }
   /* Media queries */
   @media screen and (min-width: 600px) {
