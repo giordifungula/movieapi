@@ -1,5 +1,6 @@
 body {
-    background: #684f4f;
+    /* background: #684f4f; */
+    background: url('https://previews.123rf.com/images/hugolacasse/hugolacasse1705/hugolacasse170500025/79259650-blue-film-reel-movie-background-in-front-of-hollywood-city-at-night.jpg'),no-repeat center center cover;
 }
 .container {
     
@@ -19,6 +20,7 @@ body {
     border: 1px solid gray;
     padding: 20px;
     transition: 1s;
+    box-shadow: 8px 2px 30px #000;
   }
   .card:nth-child(odd) h1 {
     background-image: linear-gradient(120deg, #22e265 0%, #137db3 100%);
